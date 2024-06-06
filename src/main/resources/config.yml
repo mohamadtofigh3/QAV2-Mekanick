@@ -1,0 +1,21 @@
+# version server ro inja vared kon ("." = hame version ha)
+ServerVersion: "1.16.5"
+
+# aya mekanick betone mashin ro bardare vaghty player dahkel mashin neshaste? (true = bale) (false = khir)
+EventCancelIfPlayerInCar: false
+
+# commandy ke mihkay bashe.
+Command: "/pickup-vehicle"
+Car: "bmw"
+
+# command ke bayad ersal she az taraf player ya console
+UserCommand: "player:qav removenearbyvehicles"
+GiveCommand: "console:qav give motorcycle %player%"
+
+# bahksh zaban
+Language:
+  Prefix: "&8[&bMekanick&8] &7"
+  PlayerInCar: "پلیر داخل این ماشین نشسته است!"
+  PickupedCar: "ماشین با موفقیت پس داده شد"
+  OfflineCarOwner: "صاحب ماشین انلاین نیست!"
+  NotCar: "ماشینی در سمت شما نیست"

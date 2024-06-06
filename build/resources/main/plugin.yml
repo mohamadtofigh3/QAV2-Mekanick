@@ -1,0 +1,9 @@
+name: QAV2-Mekanick
+version: '1.0-Beta'
+main: ir.detiven.qav2mekanick.QAV2_Mekanick
+api-version: '1.13'
+author: Detiven
+
+commands:
+  pickup-vehicle:
+    usage: usage /pickup-vehicle
